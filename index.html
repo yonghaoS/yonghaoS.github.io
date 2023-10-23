@@ -1,69 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yonghao</title>
+    <title>Yonghao Shi - HCI Researcher at SFU</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            background: url('background.webp') no-repeat;
-            background-size: cover;
         }
 
-        .box {
-            color: rgb(6, 173, 151);
-            width: 450px;
-            background: rgba(0, 0, 0, 0.4);
-            padding: 40px;
-            text-align: center;
-            margin: auto;
-            margin-top: 5%;
-            font-family: 'Century Gothic', sans-serif;
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
 
-        .box .box-img {
-            width: 220px;
-            height: 280px;
-            border-radius: 50%;
+        h1, h2 {
+            color: #333;
         }
 
-        .box h1 {
-            font-size: 50px;
-            letter-spacing: 4px;
-            font-weight: 400;
+        p {
+            line-height: 1.6;
         }
 
-        .box h2 {
-            font-size: 30px;
-            letter-spacing: 3px;
-            font-weight: 300;
-
-        }
-
-        .one {
+        a {
+            color: #007BFF;
             text-decoration: none;
-            font-size: 20px;
-            font-weight: 600;
-            color: grey;
         }
 
-        .one:hover {
-            color: rgb(6, 173, 151);
+        a:hover {
+            text-decoration: underline;
         }
+
+        .email {
+            font-weight: bold;
+        }
+
     </style>
 </head>
 
 <body>
-    <div class="box">
-        <img src="头像.jpg" alt="" class="box-img">
-        <h1 class="name">Yonghao Shi</h1>
-        <h3>Welcome to my personal website!</h3>
-        <h3>If you want to know more about me,please click this</h3>
-        <a href="yonghao2.html" class="one">Yonghao</a>
+
+    <div class="container">
+        <h1>Yonghao Shi</h1>
+        <p>计算机科学学生 - 人机交互专业</p>
+        <h2>教育背景</h2>
+        <p>目前在 <a href="https://www.sfu.ca/" target="_blank">Simon Fraser University</a> 就读，指导老师为 <strong>Xingdong Yang</strong>。</p>
+        <h2>联系方式</h2>
+        <p>如果您有任何问题或合作意向，请通过以下邮箱与我联系: <a class="email" href="mailto:yonghao_shi@sfu.ca">yonghao_shi@sfu.ca</a></p>
     </div>
+
 </body>
 
 </html>
