@@ -1,8 +1,4 @@
-I am currently a second-year PhD student at Simon Fraser University, conducting research in Human-Computer Interaction (HCI) at the iXLab.  
-My work sits at the intersection of Human-Computer Interaction, Computational Materials, and AI technologies.  
-I regularly publish in top-tier HCI venues such as CHI, UIST, and UbiComp.
-
-He is currently pursuing a Master’s degree in Computer Science at the School of Computer Science and Technology, China University of Mining and Technology.
+I am currently a second-year PhD student at Simon Fraser University, conducting research in Human-Computer Interaction (HCI) at the iXLab. My work sits at the intersection of Human-Computer Interaction, Computational Materials, and AI technologies. I regularly publish in top-tier HCI venues such as CHI, UIST, and UbiComp. In addition, I am also interested in the applications and integration of AI with real-world scenarios.
 
 #### Email
 yonghao_shi@sfu.ca

@@ -1,12 +1,37 @@
-- <strong>S. Li</strong>, X. Yang*, A. Cao*, K. Fan, Y. Liu, C. Wang, and Q.Niu . LaNCoR: Label Noise-Contrastive Robust Learning for Seismic Signal Processing with Application to Microseismic Arrival Time Picking. <strong>In Revision.</strong> [[Code]](https://github.com/senli1073/LaNCor)
 
-- X. Yang, <strong>S. Li</strong>, A. Cao*, C. Wang*, Y. Liu, X. Bai, and Q. Niu (2024). Deep Transfer Learning for P-wave Arrival Identification and Automatic Seismic Source Location in Underground Mines. <strong>International Journal of Rock Mechanics and Mining Sciences</strong>. [[Paper]](https://doi.org/10.1016/j.ijrmms.2024.105888)
+### Conference Papers
 
-- <strong>S. Li</strong>, X. Yang*, A. Cao*, C. Wang, Y. Liu, Y. Liu, and Q. Niu (2024). SeisT: A Foundational Deep-Learning Model for Earthquake Monitoring Tasks. <strong>IEEE Transactions on Geoscience and Remote Sensing</strong>. [[Paper]](https://doi.org/10.1109/TGRS.2024.3371503) [[Code]](https://github.com/senli1073/SeisT)
+- **Tagnoo: Enabling Smart Room-Scale Environments with RFID-Augmented Plywood**  
+  *Yuning Su, Tingyu Zhang, Jiuen Feng, Yonghao Shi, Xing-Dong Yang, Te-Yen Wu*  
+  *CHI 2024*, May 11, 2024  
+  [DOI: 10.1145/3613904.3642356](https://doi.org/10.1145/3613904.3642356)
 
-- A. Cao, X. Yang, C. Wang*, <strong>S. Li</strong>, Y. Liu, L. Dou, and Q. Niu (2023). High-Precision Phase Picking and Automatic Source Locating Method for Seismicity in Mines Based on Deep Transfer Learning. <strong>Journal of China Coal Society</strong>. [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2023.0095)
+- **WooDowel: Electrode Isolation for Electromagnetic Shielding in Triboelectric Plywood Sensors**  
+  *Yonghao Shi, Chenzheng Li, Yuning Su, Xing-Dong Yang, Te-Yen Wu*  
+  *CHI 2024*, May 11, 2024  
+  [DOI: 10.1145/3613904.3642304](https://doi.org/10.1145/3613904.3642304)
 
-- A. Cao, Y. Liu, X. Yang*, <strong>S. Li</strong>, C. Wang, X. Bai, and Y. Liu (2022). Physical Index and Data Fusion-Driven Method for Coal Burst Prediction in Time Sequence. <strong>Journal of China Coal Society</strong>. [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2022.0680)
+### Journal Articles
 
-- X. Yang, X. Yu, C. Zhang, <strong>S. Li</strong>, and Q. Niu (2021). MineGPS: Battery-Free Localization Base Station for Coal Mine Environment. <strong>IEEE Communications Letters</strong>. [[Paper]](https://doi.org/10.1109/LCOMM.2021.3081593)
+- **Laser-Powered Vibrotactile Rendering**  
+  *Yuning Su, Yuhua Jin, Zhengqing Wang, Yonghao Shi, Da-Yuan Huang, Teng Han, Xing-Dong Yang*  
+  *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)*, December 19, 2023  
+  [DOI: 10.1145/3631449](https://doi.org/10.1145/3631449)
 
+### Under Review
+
+- **Lumberina: A Battery-Free, Wireless Smart Wood Panel with Concealed Dot-Matrix Display**  
+  *Yanjun Chen, BoRui Li, Yuning Su, Yonghao Shi, Te-Yen Wu, Xing-Dong Yang*  
+  *UIST 2025 Submission (Paper #8909)*
+
+- **FurniAntaeus: Floor-Powered Smart Furniture**  
+  *Yuning Su, Bofan Yu, Yonghao Shi, Xing-Dong Yang*  
+  *UIST 2025 Submission (Paper #4458)*
+
+- **3Duino: A Low-Barrier Platform for Prototyping Interactive 3D-Printed Devices**  
+  *Yonghao Shi, Zejia Cai, Liuyi Chen, Yuning Su, Liang He, Xing-Dong Yang, Te-Yen Wu*  
+  *UIST 2025 Submission*
+
+- **AccelLumber: Battery-free Smart Wood Panels with An Integrated Accelerometer for Activity Sensing on Modular Furniture**  
+  *Yuning Su, Bofan Yu, Tingyu Zhang, Yonghao Shi, Te-Yen Wu, Xing-Dong Yang*  
+  *IMWUT Submission (February 2025, Paper #9062)*
