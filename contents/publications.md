@@ -21,17 +21,13 @@
 ### Under Review
 
 - **Lumberina: A Battery-Free, Wireless Smart Wood Panel with Concealed Dot-Matrix Display**  
-  *Yanjun Chen, BoRui Li, Yuning Su, Yonghao Shi, Te-Yen Wu, Xing-Dong Yang*  
   *UIST 2025 Submission (Paper #8909)*
 
 - **FurniAntaeus: Floor-Powered Smart Furniture**  
-  *Yuning Su, Bofan Yu, Yonghao Shi, Xing-Dong Yang*  
   *UIST 2025 Submission (Paper #4458)*
 
 - **3Duino: A Low-Barrier Platform for Prototyping Interactive 3D-Printed Devices**  
-  *Yonghao Shi, Zejia Cai, Liuyi Chen, Yuning Su, Liang He, Xing-Dong Yang, Te-Yen Wu*  
   *UIST 2025 Submission*
 
 - **AccelLumber: Battery-free Smart Wood Panels with An Integrated Accelerometer for Activity Sensing on Modular Furniture**  
-  *Yuning Su, Bofan Yu, Tingyu Zhang, Yonghao Shi, Te-Yen Wu, Xing-Dong Yang*  
   *IMWUT Submission (February 2025, Paper #9062)*
