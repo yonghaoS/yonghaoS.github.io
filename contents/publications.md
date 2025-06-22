@@ -21,13 +21,13 @@
 ### Under Review
 
 - **Lumberina: A Battery-Free, Wireless Smart Wood Panel with Concealed Dot-Matrix Display**  
-  *UIST 2025 Submission (Paper #8909)*
+  *CHI 2026 Submission.*
 
 - **FurniAntaeus: Floor-Powered Smart Furniture**  
-  *UIST 2025 Submission (Paper #4458)*
+  *CHI 2026 Submission.*
 
 - **3Duino: A Low-Barrier Platform for Prototyping Interactive 3D-Printed Devices**  
-  *UIST 2025 Submission*
+  *CHI 2026 Submission.*
 
 - **AccelLumber: Battery-free Smart Wood Panels with An Integrated Accelerometer for Activity Sensing on Modular Furniture**  
-  *IMWUT Submission (February 2025, Paper #9062)*
+  *CHI 2026 Submission.*
