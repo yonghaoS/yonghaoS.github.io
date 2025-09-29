@@ -1,6 +1,10 @@
 
 ### Conference Papers
 
+- **Lumberina: A Battery-Free, Wireless Smart Wood Panel with Concealed Dot-Matrix Display**  
+  *Yonghao Shi, Zejia Cai, Liuyi Chen, Yuning Su, Liang he, Xing-Dong Yang, Te-Yen Wu*
+  *SCF 2025*, Nov 11, 2025
+  
 - **Tagnoo: Enabling Smart Room-Scale Environments with RFID-Augmented Plywood**  
   *Yuning Su, Tingyu Zhang, Jiuen Feng, Yonghao Shi, Xing-Dong Yang, Te-Yen Wu*  
   *CHI 2024*, May 11, 2024  
@@ -20,13 +24,10 @@
 
 ### Under Review
 
-- **Lumberina: A Battery-Free, Wireless Smart Wood Panel with Concealed Dot-Matrix Display**  
-  *CHI 2026 Submission.*
-
 - **FurniAntaeus: Floor-Powered Smart Furniture**  
   *CHI 2026 Submission.*
 
-- **3Duino: A Low-Barrier Platform for Prototyping Interactive 3D-Printed Devices**  
+- **Lumberina: A Battery-Free, Wireless Smart Wood Panel with Concealed Dot-Matrix Display**  
   *CHI 2026 Submission.*
 
 - **AccelLumber: Battery-free Smart Wood Panels with An Integrated Accelerometer for Activity Sensing on Modular Furniture**  
