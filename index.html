@@ -4,262 +4,308 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Yonghao Shi, Ph.D. student in Computer Science at Simon Fraser University. Research in human-computer interaction, smart environments, and computational materials." />
+  <meta name="description" content="Yonghao Shi, Ph.D. student in Computer Science at Simon Fraser University. Research in human-computer interaction, sustainable computational wood, smart environments, and computational materials." />
   <meta name="author" content="Yonghao Shi" />
   <title>Yonghao Shi | Human-Computer Interaction</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="static/css/main.css" />
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
   <header class="site-header">
-    <nav class="nav-shell" aria-label="Primary navigation">
-      <a class="brand" href="#home">Yonghao Shi</a>
+    <div class="header-rule" aria-hidden="true"></div>
+    <nav class="main-nav" aria-label="Primary navigation">
+      <a class="site-brand" href="#home" aria-label="Yonghao Shi homepage">
+        <span>Yonghao Shi</span>
+        <strong>Human-Computer Interaction</strong>
+      </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
         <span>Menu</span>
       </button>
       <div class="nav-links" id="primary-menu">
-        <a href="#about">About Me</a>
-        <a href="#news">News</a>
+        <a href="#overview">Overview</a>
+        <a href="#research">Research</a>
         <a href="#publications">Publications</a>
         <a href="#submissions">Under Review</a>
         <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
-        <a class="nav-cv" href="static/assets/Yonghao_Shi_CV.pdf">CV</a>
+        <a href="static/assets/Yonghao_Shi_CV.pdf">CV</a>
       </div>
     </nav>
   </header>
 
-  <main id="home">
-    <section class="hero" aria-label="Profile introduction">
-      <div class="hero-image" role="img" aria-label="Simon Fraser University campus with mountains in the background"></div>
-      <div class="hero-content">
-        <div class="portrait-wrap">
+  <main id="main-content">
+    <section class="profile-hero" id="home" aria-label="Profile introduction">
+      <div class="hero-band" aria-hidden="true"></div>
+      <div class="hero-shell">
+        <div class="portrait-frame">
           <img src="static/assets/img/photo-retouched.png" alt="Portrait of Yonghao Shi" />
         </div>
-        <div class="hero-copy">
-          <p class="eyebrow">Human-Computer Interaction | Smart Environments | Computational Materials</p>
+        <div class="identity">
+          <p class="breadcrumb">People / Ph.D. Student</p>
           <h1>Yonghao Shi</h1>
-          <p class="lead">
-            I am a Ph.D. student in Computer Science at Simon Fraser University, working on human-computer interaction
-            research that connects smart materials, sensing, fabrication, and AI-enabled interactive systems.
+          <p class="role">Ph.D. Student in Computer Science</p>
+          <p class="affiliation">Simon Fraser University</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="profile-layout">
+      <aside class="section-nav" aria-label="Page sections">
+        <a href="#overview">Overview</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#submissions">Under Review</a>
+        <a href="#experience">Experience</a>
+      </aside>
+
+      <article class="profile-content">
+        <section class="content-block overview-block" id="overview">
+          <p class="intro">
+            Yonghao Shi is a Ph.D. student in Computer Science at Simon Fraser University. His research
+            explores how everyday materials, especially wood panels and furniture, can become sensing
+            and actuation interfaces for smart environments.
           </p>
-          <div class="hero-actions" aria-label="Profile links">
-            <a class="button primary" href="static/assets/Yonghao_Shi_CV.pdf">Download CV</a>
-            <a class="button secondary" href="mailto:yonghao_shi@sfu.ca">Email</a>
-            <a class="button secondary" href="https://github.com/yonghaoS">GitHub</a>
+          <p>
+            His work combines human-computer interaction, fabrication, electronics, computational
+            materials, and data-driven system design. Before joining SFU, he worked as a software
+            engineer and project manager at the Institute of Information Engineering, Chinese Academy of
+            Sciences, and completed degrees in computer science, data science, and electrical and
+            electronic engineering in the United Kingdom and China.
+          </p>
+        </section>
+
+        <section class="content-block" id="research">
+          <h2>Research</h2>
+          <p class="focus-line">
+            <strong>Focus Areas:</strong> Human-Computer Interaction, sustainable computational
+            materials, smart environments, fabrication, sensing systems, recyclable electronics, and
+            applied AI.
+          </p>
+          <p>
+            Yonghao's current research agenda, <strong>Sustainable Computational Wood</strong>, studies
+            how to preserve the natural properties of wood while embedding sensing functions directly
+            into the material. The goal is to make smart furniture and room-scale structures usable from
+            the moment they are built, while keeping ecological impact and recyclability central to the
+            design process.
+          </p>
+
+          <div class="research-list" aria-label="Research directions">
+            <article>
+              <h3>Recyclable Sensing Materials</h3>
+              <p>
+                Developing conductive and biodegradable composites, carbon-based sensing layers, and
+                passive sensing structures for wood-based computational materials.
+              </p>
+            </article>
+            <article>
+              <h3>Scalable Smart Wood Systems</h3>
+              <p>
+                Designing low-cost sensing modules and wireless techniques such as RFID, frequency
+                selective surfaces, and backscatter communication for everyday wooden artifacts.
+              </p>
+            </article>
+            <article>
+              <h3>Real-World Evaluation</h3>
+              <p>
+                Working with woodworkers and users to test usability, sensing reliability, durability,
+                decomposition, and recyclability in furniture and room-scale prototypes.
+              </p>
+            </article>
           </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <section class="section split" id="about">
-      <div>
-        <p class="section-kicker">About Me</p>
-        <h2>Building interactive systems from materials, data, and everyday environments.</h2>
-      </div>
-      <div class="prose">
-        <p>
-          My work sits at the intersection of Human-Computer Interaction, computational materials, smart environments,
-          and machine learning applications. I am especially interested in transforming common physical surfaces such as
-          wood panels, furniture, and room-scale structures into sensing and actuation interfaces.
-        </p>
-        <p>
-          Before joining SFU, I worked as a software engineer and project manager at the Institute of Information
-          Engineering, Chinese Academy of Sciences, and completed degrees in computer science, data science, and
-          electrical and electronic engineering in the United Kingdom and China.
-        </p>
-      </div>
-    </section>
+        <section class="content-block highlights-block" id="highlights">
+          <h2>Selected Contributions</h2>
+          <div class="contribution-list">
+            <article>
+              <span>Project lead</span>
+              <h3>Woodowel</h3>
+              <p>
+                Led preliminary research, system design, prototype development, iterative refinement,
+                experiments, user study, and manuscript writing for triboelectric plywood sensing.
+              </p>
+            </article>
+            <article>
+              <span>Project lead</span>
+              <h3>3Duino</h3>
+              <p>
+                Led workflow design, model performance testing, software development, user study, and
+                paper writing for low-barrier prototyping of interactive 3D-printed devices.
+              </p>
+            </article>
+            <article>
+              <span>Fabrication and evaluation</span>
+              <h3>Tagnoo and Laser-Powered Vibrotactile Rendering</h3>
+              <p>
+                Contributed to fabrication, iterative prototyping, performance testing, technical
+                evaluation, and demonstration work across collaborative HCI systems projects.
+              </p>
+            </article>
+          </div>
+        </section>
 
-    <section class="section" id="news">
-      <div class="section-heading">
-        <p class="section-kicker">News & Updates</p>
-        <h2>Recent research activity</h2>
-      </div>
-      <div class="news-grid">
-        <article class="news-item">
-          <p class="pub-status">Under review</p>
-          <h3>Current manuscripts</h3>
-          <p>Lumberina: A Battery-Free, Wireless Smart Wood Panel with Concealed Dot-Matrix Display; EcoVibWood: A Sustainable Vibration-Sensing Plywood Panel with Eco-Friendly Sensing Layers and a Self-Isolating Electrode Switching Mechanism; and Exploring Tangible Devices for Low-Effort, Participant-Controlled Data Input are currently under review.</p>
-        </article>
-        <article class="news-item">
-          <time datetime="2025-11">November 2025</time>
-          <h3>3Duino at SCF 2025</h3>
-          <p>3Duino: A Low-Barrier Platform for Prototyping Interactive 3D-Printed Devices was published at ACM Symposium on Computational Fabrication.</p>
-        </article>
-        <article class="news-item">
-          <time datetime="2024-05">May 2024</time>
-          <h3>CHI publications</h3>
-          <p>Woodowel: Electrode Isolation for Electromagnetic Shielding in Triboelectric Plywood Sensors and Tagnoo: Enabling Smart Room-Scale Environments with RFID-Augmented Plywood were published at CHI.</p>
-        </article>
-      </div>
-    </section>
+        <section class="content-block" id="publications">
+          <h2>Publications</h2>
+          <div class="publication-list">
+            <article class="publication">
+              <p class="pub-date">November 2025</p>
+              <h3>3Duino: A Low-Barrier Platform for Prototyping Interactive 3D-Printed Devices</h3>
+              <p>
+                Yonghao Shi, Z. Cai, L. Chen, Y. Su, L. He, X.-D. Yang, and T.-Y. Wu.
+                ACM Symposium on Computational Fabrication.
+                <a href="https://doi.org/10.1145/3745778.3766649">DOI: 10.1145/3745778.3766649</a>
+              </p>
+            </article>
+            <article class="publication">
+              <p class="pub-date">May 2024</p>
+              <h3>Woodowel: Electrode Isolation for Electromagnetic Shielding in Triboelectric Plywood Sensors</h3>
+              <p>
+                Yonghao Shi, C. Li, Y. Su, X.-D. Yang, and T.-Y. Wu.
+                CHI Conference on Human Factors in Computing Systems.
+                <a href="https://doi.org/10.1145/3613904.3642304">DOI: 10.1145/3613904.3642304</a>
+              </p>
+            </article>
+            <article class="publication">
+              <p class="pub-date">May 2024</p>
+              <h3>Tagnoo: Enabling Smart Room-Scale Environments with RFID-Augmented Plywood</h3>
+              <p>
+                Y. Su, T. Zhang, J. Feng, Yonghao Shi, X.-D. Yang, and T.-Y. Wu.
+                CHI Conference on Human Factors in Computing Systems.
+                <a href="https://doi.org/10.1145/3613904.3642356">DOI: 10.1145/3613904.3642356</a>
+              </p>
+            </article>
+            <article class="publication">
+              <p class="pub-date">December 2023</p>
+              <h3>Laser-Powered Vibrotactile Rendering</h3>
+              <p>
+                Y. Su, Y. Jin, Z. Wang, Yonghao Shi, D.-Y. Huang, T. Han, and X.-D. Yang.
+                Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies.
+                <a href="https://doi.org/10.1145/3631449">DOI: 10.1145/3631449</a>
+              </p>
+            </article>
+          </div>
+        </section>
 
-    <section class="section research-band" id="research">
-      <div class="section-heading">
-        <p class="section-kicker">Research Focus</p>
-        <h2>Interactive surfaces for intelligent physical spaces</h2>
-      </div>
-      <div class="focus-list" aria-label="Research focus areas">
-        <div>
-          <h3>Smart Materials</h3>
-          <p>Battery-free wood panels, plywood sensing, embedded electrodes, and material-aware interaction techniques.</p>
-        </div>
-        <div>
-          <h3>Room-Scale Interfaces</h3>
-          <p>RFID-augmented environments, smart furniture, and modular sensing systems for everyday spaces.</p>
-        </div>
-        <div>
-          <h3>Applied AI</h3>
-          <p>Machine learning and data-driven methods for interpreting physical interaction and supporting real-world applications.</p>
-        </div>
-      </div>
-    </section>
+        <section class="content-block" id="submissions">
+          <h2>Manuscripts Under Review</h2>
+          <p class="section-note">Published papers are listed in the Publications section.</p>
+          <div class="submission-list">
+            <article>
+              <span>Under review</span>
+              <h3>Lumberina: A Battery-Free, Wireless Smart Wood Panel with Concealed Dot-Matrix Display</h3>
+            </article>
+            <article>
+              <span>Under review</span>
+              <h3>EcoVibWood: A Sustainable Vibration-Sensing Plywood Panel with Eco-Friendly Sensing Layers and a Self-Isolating Electrode Switching Mechanism</h3>
+            </article>
+            <article>
+              <span>Under review</span>
+              <h3>Exploring Tangible Devices for Low-Effort, Participant-Controlled Data Input</h3>
+            </article>
+          </div>
+        </section>
 
-    <section class="section" id="publications">
-      <div class="section-heading">
-        <p class="section-kicker">Publications</p>
-        <h2>Peer-reviewed publications</h2>
-      </div>
-      <div class="publication-list">
-        <article class="publication">
-          <p class="pub-status">November 2025</p>
-          <h3>3Duino: A Low-Barrier Platform for Prototyping Interactive 3D-Printed Devices</h3>
-          <p>ACM Symposium on Computational Fabrication. <a href="https://doi.org/10.1145/3745778.3766649">DOI: 10.1145/3745778.3766649</a></p>
-        </article>
-        <article class="publication">
-          <p class="pub-status">May 2024</p>
-          <h3>Woodowel: Electrode Isolation for Electromagnetic Shielding in Triboelectric Plywood Sensors</h3>
-          <p>CHI Conference on Human Factors in Computing Systems. <a href="https://doi.org/10.1145/3613904.3642304">DOI: 10.1145/3613904.3642304</a></p>
-        </article>
-        <article class="publication">
-          <p class="pub-status">May 2024</p>
-          <h3>Tagnoo: Enabling Smart Room-Scale Environments with RFID-Augmented Plywood</h3>
-          <p>CHI Conference on Human Factors in Computing Systems. <a href="https://doi.org/10.1145/3613904.3642356">DOI: 10.1145/3613904.3642356</a></p>
-        </article>
-        <article class="publication">
-          <p class="pub-status">December 2023</p>
-          <h3>Laser-Powered Vibrotactile Rendering</h3>
-          <p>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies. <a href="https://doi.org/10.1145/3631449">DOI: 10.1145/3631449</a></p>
-        </article>
-      </div>
-    </section>
+        <section class="content-block" id="experience">
+          <h2>Experience</h2>
+          <div class="experience-grid">
+            <div>
+              <h3>Education</h3>
+              <ol class="timeline">
+                <li>
+                  <span>2022-now</span>
+                  <strong>Ph.D. in Computer Science</strong>
+                  <p>Simon Fraser University, Burnaby, Canada.</p>
+                </li>
+                <li>
+                  <span>2017-2018</span>
+                  <strong>M.Sc. in Computer Science</strong>
+                  <p>University of Plymouth, United Kingdom.</p>
+                </li>
+                <li>
+                  <span>2016-2017</span>
+                  <strong>B.Sc. in Electrical and Electronic Engineering</strong>
+                  <p>University of Plymouth, United Kingdom.</p>
+                </li>
+                <li>
+                  <span>2013-2016</span>
+                  <strong>B.Sc. in Electrical and Electronic Engineering</strong>
+                  <p>Beihang University, China.</p>
+                </li>
+              </ol>
+            </div>
+            <div>
+              <h3>Professional and Academic Activities</h3>
+              <ol class="timeline">
+                <li>
+                  <span>Teaching</span>
+                  <strong>Teaching Assistant</strong>
+                  <p>CMPT 120: Introduction to Programming, mentoring students in programming fundamentals.</p>
+                </li>
+                <li>
+                  <span>2020-2021</span>
+                  <strong>Project Manager</strong>
+                  <p>Institute of Information Engineering, Chinese Academy of Sciences.</p>
+                </li>
+                <li>
+                  <span>2018-2020</span>
+                  <strong>Software Engineer</strong>
+                  <p>Institute of Information Engineering, Chinese Academy of Sciences.</p>
+                </li>
+                <li>
+                  <span>2017</span>
+                  <strong>Software Engineer</strong>
+                  <p>PwC Beijing.</p>
+                </li>
+              </ol>
+            </div>
+          </div>
 
-    <section class="section submission-section" id="submissions">
-      <div class="section-heading">
-        <p class="section-kicker">Current Work</p>
-        <h2>Manuscripts under review</h2>
-        <p class="section-note">Published papers are listed in the Publications section.</p>
-      </div>
-      <div class="submission-list">
-        <article class="submission-status">
-          <span>Under review</span>
+          <div class="notes-grid">
+            <article>
+              <h3>Research Community</h3>
+              <p>
+                Presented poster and demo work at SFU VINCI and TechFest in Victoria; attended CHI,
+                UIST, and UbiComp; visited HCI labs including MIT, Tsinghua, and the University of Waterloo.
+              </p>
+            </article>
+            <article>
+              <h3>Recognition</h3>
+              <p>
+                Recipient of the SFU PhD Research Scholarship and multiple Graduate Fellowships.
+              </p>
+            </article>
+          </div>
+        </section>
+      </article>
+
+      <aside class="contact-card" id="contact" aria-label="Contact information">
+        <h2>Contact Info</h2>
+        <dl>
           <div>
-            <h3>Lumberina: A Battery-Free, Wireless Smart Wood Panel with Concealed Dot-Matrix Display</h3>
+            <dt>Email</dt>
+            <dd><a href="mailto:yonghao_shi@sfu.ca">yonghao_shi@sfu.ca</a></dd>
           </div>
-        </article>
-        <article class="submission-status">
-          <span>Under review</span>
           <div>
-            <h3>EcoVibWood: A Sustainable Vibration-Sensing Plywood Panel with Eco-Friendly Sensing Layers and a Self-Isolating Electrode Switching Mechanism</h3>
+            <dt>Alternate Email</dt>
+            <dd><a href="mailto:18501033207@163.com">18501033207@163.com</a></dd>
           </div>
-        </article>
-        <article class="submission-status">
-          <span>Under review</span>
           <div>
-            <h3>Exploring Tangible Devices for Low-Effort, Participant-Controlled Data Input</h3>
+            <dt>Website</dt>
+            <dd><a href="https://yonghaos.github.io/">yonghaos.github.io</a></dd>
           </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section two-column" id="experience">
-      <div>
-        <p class="section-kicker">Experience</p>
-        <h2>Employment History</h2>
-        <ol class="timeline">
-          <li>
-            <span>2020-2021</span>
-            <strong>Project Manager</strong>
-            <p>Institute of Information Engineering, Chinese Academy of Sciences.</p>
-          </li>
-          <li>
-            <span>2018-2020</span>
-            <strong>Software Engineer</strong>
-            <p>Institute of Information Engineering, Chinese Academy of Sciences.</p>
-          </li>
-          <li>
-            <span>2017.6-2017.9</span>
-            <strong>Software Engineer</strong>
-            <p>PwC Beijing.</p>
-          </li>
-        </ol>
-      </div>
-
-      <div>
-        <p class="section-kicker">Education</p>
-        <h2>Academic Training</h2>
-        <ol class="timeline">
-          <li>
-            <span>2022-now</span>
-            <strong>Ph.D. in Computer Science</strong>
-            <p>Simon Fraser University, Burnaby, Canada. Thesis: Human-Computer Interaction, Smart Environment, and Computational Material.</p>
-          </li>
-          <li>
-            <span>2017-2018</span>
-            <strong>M.Sc. in Computer Science</strong>
-            <p>University of Plymouth, United Kingdom. Thesis: Data Science and Business Analysis.</p>
-          </li>
-          <li>
-            <span>2016-2017</span>
-            <strong>B.Sc. in Electrical and Electronic Engineering</strong>
-            <p>University of Plymouth, United Kingdom.</p>
-          </li>
-          <li>
-            <span>2013-2016</span>
-            <strong>B.Sc. in Electrical and Electronic Engineering</strong>
-            <p>Beihang University, China.</p>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <section class="section skills-section" id="skills">
-      <div class="section-heading">
-        <p class="section-kicker">Skills</p>
-        <h2>Technical background</h2>
-      </div>
-      <div class="skills-list">
-        <div>
-          <h3>Coding</h3>
-          <p>Java, C, Python, R, SQL, XML/XSL, LaTeX</p>
-        </div>
-        <div>
-          <h3>Databases</h3>
-          <p>MySQL, Oracle, SQL Server, Redis, MongoDB, Neo4j</p>
-        </div>
-        <div>
-          <h3>Research</h3>
-          <p>Academic research, teaching, training, consultation, HCI prototyping, data analysis</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section contact-section" id="contact">
-      <div>
-        <p class="section-kicker">Contact Me</p>
-        <h2>For collaboration, research discussion, or internship opportunities.</h2>
-      </div>
-      <div class="contact-links">
-        <a href="mailto:yonghao_shi@sfu.ca">yonghao_shi@sfu.ca</a>
-        <a href="mailto:18501033207@163.com">18501033207@163.com</a>
-        <a href="https://github.com/yonghaoS">github.com/yonghaoS</a>
-        <a href="static/assets/Yonghao_Shi_CV.pdf">Full CV</a>
-      </div>
-    </section>
+          <div>
+            <dt>GitHub</dt>
+            <dd><a href="https://github.com/yonghaoS">github.com/yonghaoS</a></dd>
+          </div>
+        </dl>
+        <a class="cv-link" href="static/assets/Yonghao_Shi_CV.pdf">Download CV</a>
+      </aside>
+    </div>
   </main>
 
   <footer class="site-footer">
@@ -267,19 +313,19 @@
   </footer>
 
   <script>
-    const toggle = document.querySelector('.nav-toggle');
-    const menu = document.querySelector('.nav-links');
+    const toggle = document.querySelector(".nav-toggle");
+    const menu = document.querySelector(".nav-links");
 
-    toggle.addEventListener('click', () => {
-      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
-      toggle.setAttribute('aria-expanded', String(!isOpen));
-      menu.classList.toggle('is-open');
+    toggle.addEventListener("click", () => {
+      const isOpen = toggle.getAttribute("aria-expanded") === "true";
+      toggle.setAttribute("aria-expanded", String(!isOpen));
+      menu.classList.toggle("is-open");
     });
 
-    menu.querySelectorAll('a').forEach((link) => {
-      link.addEventListener('click', () => {
-        toggle.setAttribute('aria-expanded', 'false');
-        menu.classList.remove('is-open');
+    menu.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        toggle.setAttribute("aria-expanded", "false");
+        menu.classList.remove("is-open");
       });
     });
   </script>
