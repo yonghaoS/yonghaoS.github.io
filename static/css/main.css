@@ -299,14 +299,17 @@ h3 {
   border-bottom: 0;
 }
 
-.publication a {
+.publication a,
+.submission-list a {
   color: var(--blue);
   font-weight: 700;
   text-decoration: none;
 }
 
 .publication a:hover,
-.publication a:focus {
+.publication a:focus,
+.submission-list a:hover,
+.submission-list a:focus {
   text-decoration: underline;
 }
 
