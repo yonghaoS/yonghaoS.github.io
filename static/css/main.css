@@ -343,7 +343,8 @@ h3 {
   border-bottom: 0;
 }
 
-.submission-list time {
+.submission-list time,
+.submission-list > article > span {
   color: var(--gold);
   font-size: 0.9rem;
   font-weight: 800;
