@@ -2,169 +2,273 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Academic Webpage" />
-    <meta name="author" content="senli1073" />
-    <title id="title"></title>
-
-    <!-- Icon -->
-    <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
-
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
-
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
-    <link type="text/css" href="static/css/main.css" rel="stylesheet" />
-
-    <!-- Bootstrap core JS-->
-    <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Polyfill -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-
-    <!-- Markdown -->
-    <script type="text/javascript" src="static/js/marked.min.js"></script>
-
-    <!-- Mathematics -->
-    <script>
-        MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']],
-                displayMath: [['$$', '$$'], ['\\[', '\\]']],
-                processEnvironments: true,
-                processRefs: true,
-                tags: 'all',
-                tagSide: 'right',
-                tagIndent: '0.8em',
-                useLabelIds: true,
-                formatError: (jax, err) => jax.formatError(err)
-            }
-        };
-    </script>
-    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-    <!-- Core JS-->
-    <script type="text/javascript" src="static/js/scripts.js"></script>
-    <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Yonghao Shi, Ph.D. student in Computer Science at Simon Fraser University. Research in human-computer interaction, smart environments, and computational materials." />
+  <meta name="author" content="Yonghao Shi" />
+  <title>Yonghao Shi | Human-Computer Interaction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="static/css/main.css" />
 </head>
 
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-        <div class="container px-5">
-            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
-                <i class="bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#page-top">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#job">JOB</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+<body>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="brand" href="#home">Yonghao Shi</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+        <span>Menu</span>
+      </button>
+      <div class="nav-links" id="primary-menu">
+        <a href="#about">About Me</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cv" href="static/assets/Yonghao_Shi_CV.pdf">CV</a>
+      </div>
     </nav>
+  </header>
 
-    <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');">
-        <div class="top-section-content">
-            <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
-            </div>
+  <main id="home">
+    <section class="hero" aria-label="Profile introduction">
+      <div class="hero-image" role="img" aria-label="Simon Fraser University campus with mountains in the background"></div>
+      <div class="hero-content">
+        <div class="portrait-wrap">
+          <img src="static/assets/img/photo.png" alt="Portrait of Yonghao Shi" />
         </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Human-Computer Interaction | Smart Environments | Computational Materials</p>
+          <h1>Yonghao Shi</h1>
+          <p class="lead">
+            I am a Ph.D. student in Computer Science at Simon Fraser University, working on human-computer interaction
+            research that connects smart materials, sensing, fabrication, and AI-enabled interactive systems.
+          </p>
+          <div class="hero-actions" aria-label="Profile links">
+            <a class="button primary" href="static/assets/Yonghao_Shi_CV.pdf">Download CV</a>
+            <a class="button secondary" href="mailto:yonghao_shi@sfu.ca">Email</a>
+            <a class="button secondary" href="https://github.com/yonghaoS">GitHub</a>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Photo --><!--
-    <div class="container px-5">
-        <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.png">
-        </div>
-    </div>-->
-
-    <!-- Home -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
-        <div class="container px-5">
-            <header>
-                <h2 id="home-subtitle"></h2>
-            </header>
-            <div class="main-body" id="home-md"></div>
-        </div>
+    <section class="section split" id="about">
+      <div>
+        <p class="section-kicker">About Me</p>
+        <h2>Building interactive systems from materials, data, and everyday environments.</h2>
+      </div>
+      <div class="prose">
+        <p>
+          My work sits at the intersection of Human-Computer Interaction, computational materials, smart environments,
+          and machine learning applications. I am especially interested in transforming common physical surfaces such as
+          wood panels, furniture, and room-scale structures into sensing and actuation interfaces.
+        </p>
+        <p>
+          Before joining SFU, I worked as a software engineer and project manager at the Institute of Information
+          Engineering, Chinese Academy of Sciences, and completed degrees in computer science, data science, and
+          electrical and electronic engineering in the United Kingdom and China.
+        </p>
+      </div>
     </section>
 
-    <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
-        <div class="container px-5">
-            <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
-            </header>
-            <div class="main-body" id="publications-md"></div>
-        </div>
+    <section class="section" id="news">
+      <div class="section-heading">
+        <p class="section-kicker">News & Updates</p>
+        <h2>Recent research activity</h2>
+      </div>
+      <div class="news-grid">
+        <article class="news-item">
+          <time datetime="2026">2026</time>
+          <h3>CHI 2026 submissions</h3>
+          <p>Four projects are listed in the current CV submission pipeline, including Lumberina, FurniAntaeus, 3Duino, and AccelLumber.</p>
+        </article>
+        <article class="news-item">
+          <time datetime="2024">2024</time>
+          <h3>CHI 2024 publications</h3>
+          <p>Published WooDowel and Tagnoo at the CHI Conference on Human Factors in Computing Systems.</p>
+        </article>
+        <article class="news-item">
+          <time datetime="2023">2023</time>
+          <h3>Vibrotactile rendering work</h3>
+          <p>Co-authored Laser-Powered Vibrotactile Rendering, extending interactive sensing and feedback techniques.</p>
+        </article>
+      </div>
     </section>
 
-    <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
-        <div class="container px-5">
-            <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>&nbsp;AWARDS</h2>
-            </header>
-            <div class="main-body" id="awards-md"></div>
+    <section class="section research-band" id="research">
+      <div class="section-heading">
+        <p class="section-kicker">Research Focus</p>
+        <h2>Interactive surfaces for intelligent physical spaces</h2>
+      </div>
+      <div class="focus-list" aria-label="Research focus areas">
+        <div>
+          <h3>Smart Materials</h3>
+          <p>Battery-free wood panels, plywood sensing, embedded electrodes, and material-aware interaction techniques.</p>
         </div>
+        <div>
+          <h3>Room-Scale Interfaces</h3>
+          <p>RFID-augmented environments, smart furniture, and modular sensing systems for everyday spaces.</p>
+        </div>
+        <div>
+          <h3>Applied AI</h3>
+          <p>Machine learning and data-driven methods for interpreting physical interaction and supporting real-world applications.</p>
+        </div>
+      </div>
     </section>
 
-    <!-- Job -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="job">
-        <div class="container px-5">
-            <header>
-                <h2 id="job-subtitle"><i class="bi bi-briefcase-fill"></i>&nbsp;JOB EXPERIENCE</h2>
-            </header>
-            <div class="main-body" id="job-md">
-                <ul>
-                    <li>
-                        <strong>Data Analyst, PwC</strong> – Summer Internship (2016)  
-                        <br>Conducted data storage management and analysis during a two-month internship.
-                    </li>
-                    <li class="mt-3">
-                        <strong>Product Manager & Backend Developer, Qixiang Yuanwang IT Company, Shanxi</strong> (2019 – 2023)  
-                        <br>Led project management and backend development using Java and Python, with frontend in Angular and Vue.js.
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <section class="section" id="publications">
+      <div class="section-heading">
+        <p class="section-kicker">Publications</p>
+        <h2>Selected papers and submissions</h2>
+      </div>
+      <div class="publication-list">
+        <article class="publication">
+          <p class="pub-status">Under Review</p>
+          <h3>Lumberina: A Battery-Free, Wireless Smart Wood Panel with Concealed Dot-Matrix Display</h3>
+          <p>CHI 2026 submission.</p>
+        </article>
+        <article class="publication">
+          <p class="pub-status">Under Review</p>
+          <h3>FurniAntaeus: Floor-Powered Smart Furniture</h3>
+          <p>CHI 2026 submission.</p>
+        </article>
+        <article class="publication">
+          <p class="pub-status">Under Review</p>
+          <h3>3Duino: A Low-Barrier Platform for Prototyping Interactive 3D-Printed Devices</h3>
+          <p>CHI 2026 submission.</p>
+        </article>
+        <article class="publication">
+          <p class="pub-status">Under Review</p>
+          <h3>AccelLumber: Battery-free Smart Wood Panels with an Integrated Accelerometer for Activity Sensing on Modular Furniture</h3>
+          <p>CHI 2026 submission.</p>
+        </article>
+        <article class="publication">
+          <p class="pub-status">CHI 2024</p>
+          <h3>Woodowel: Electrode Isolation for Electromagnetic Shielding in Triboelectric Plywood Sensors</h3>
+          <p>Y. Shi, C. Li, Y. Su, X.-D. Yang, and T.-Y. Wu. Proceedings of the CHI Conference on Human Factors in Computing Systems, 2024.</p>
+        </article>
+        <article class="publication">
+          <p class="pub-status">CHI 2024</p>
+          <h3>Tagnoo: Enabling Smart Room-Scale Environments with RFID-Augmented Plywood</h3>
+          <p>Y. Su, T. Zhang, J. Feng, Y. Shi, X.-D. Yang, and T.-Y. Wu. Proceedings of the CHI Conference on Human Factors in Computing Systems, 2024.</p>
+        </article>
+        <article class="publication">
+          <p class="pub-status">UIST Adjunct 2023</p>
+          <h3>Laser-Powered Vibrotactile Rendering</h3>
+          <p>Y. Su, Y. Shi, D.-Y. Huang, and X.-D. Yang. Adjunct Proceedings of the ACM Symposium on User Interface Software and Technology, 2023.</p>
+        </article>
+      </div>
     </section>
 
-    <!-- Footer-->
-    <footer class="bg-bottom text-center py-5">
-        <div class="container px-5">
-            <div class="text-white-50 small">
-                <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/senli1073">Github</a>
-                <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
-            </div>
-        </div>
-    </footer>
+    <section class="section two-column" id="experience">
+      <div>
+        <p class="section-kicker">Experience</p>
+        <h2>Employment History</h2>
+        <ol class="timeline">
+          <li>
+            <span>2020-2021</span>
+            <strong>Project Manager</strong>
+            <p>Institute of Information Engineering, Chinese Academy of Sciences.</p>
+          </li>
+          <li>
+            <span>2018-2020</span>
+            <strong>Software Engineer</strong>
+            <p>Institute of Information Engineering, Chinese Academy of Sciences.</p>
+          </li>
+          <li>
+            <span>2017.6-2017.9</span>
+            <strong>Software Engineer</strong>
+            <p>PwC Beijing.</p>
+          </li>
+        </ol>
+      </div>
 
+      <div>
+        <p class="section-kicker">Education</p>
+        <h2>Academic Training</h2>
+        <ol class="timeline">
+          <li>
+            <span>2022-now</span>
+            <strong>Ph.D. in Computer Science</strong>
+            <p>Simon Fraser University, Burnaby, Canada. Thesis: Human-Computer Interaction, Smart Environment, and Computational Material.</p>
+          </li>
+          <li>
+            <span>2017-2018</span>
+            <strong>M.Sc. in Computer Science</strong>
+            <p>University of Plymouth, United Kingdom. Thesis: Data Science and Business Analysis.</p>
+          </li>
+          <li>
+            <span>2016-2017</span>
+            <strong>B.Sc. in Electrical and Electronic Engineering</strong>
+            <p>University of Plymouth, United Kingdom.</p>
+          </li>
+          <li>
+            <span>2013-2016</span>
+            <strong>B.Sc. in Electrical and Electronic Engineering</strong>
+            <p>Beihang University, China.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading">
+        <p class="section-kicker">Skills</p>
+        <h2>Technical background</h2>
+      </div>
+      <div class="skills-list">
+        <div>
+          <h3>Coding</h3>
+          <p>Java, C, Python, R, SQL, XML/XSL, LaTeX</p>
+        </div>
+        <div>
+          <h3>Databases</h3>
+          <p>MySQL, Oracle, SQL Server, Redis, MongoDB, Neo4j</p>
+        </div>
+        <div>
+          <h3>Research</h3>
+          <p>Academic research, teaching, training, consultation, HCI prototyping, data analysis</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div>
+        <p class="section-kicker">Contact Me</p>
+        <h2>For collaboration, research discussion, or internship opportunities.</h2>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:yonghao_shi@sfu.ca">yonghao_shi@sfu.ca</a>
+        <a href="mailto:18501033207@163.com">18501033207@163.com</a>
+        <a href="https://github.com/yonghaoS">github.com/yonghaoS</a>
+        <a href="static/assets/Yonghao_Shi_CV.pdf">Full CV</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; Yonghao Shi 2026. Built for GitHub Pages.</p>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.querySelector('.nav-links');
+
+    toggle.addEventListener('click', () => {
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!isOpen));
+      menu.classList.toggle('is-open');
+    });
+
+    menu.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        toggle.setAttribute('aria-expanded', 'false');
+        menu.classList.remove('is-open');
+      });
+    });
+  </script>
 </body>
 
 </html>
