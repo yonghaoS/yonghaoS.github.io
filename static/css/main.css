@@ -256,6 +256,7 @@ h3 {
 .publication p,
 .focus-list p,
 .timeline p,
+.submission-list p,
 .skills-list p {
   margin: 10px 0 0;
   color: var(--muted);
@@ -298,8 +299,55 @@ h3 {
   border-bottom: 0;
 }
 
+.publication a {
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.publication a:hover,
+.publication a:focus {
+  text-decoration: underline;
+}
+
 .pub-status {
   color: var(--blue);
+}
+
+.section-note {
+  margin: 12px 0 0;
+  color: var(--muted);
+}
+
+.submission-section {
+  padding-top: 48px;
+}
+
+.submission-list {
+  display: grid;
+  gap: 12px;
+}
+
+.submission-list article {
+  display: grid;
+  grid-template-columns: 148px 1fr;
+  gap: 22px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.submission-list article:last-child {
+  border-bottom: 0;
+}
+
+.submission-list time {
+  color: var(--gold);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.submission-list h3 {
+  font-size: 1.08rem;
 }
 
 .two-column {
@@ -464,10 +512,15 @@ h3 {
   .split,
   .two-column,
   .contact-section,
+  .submission-list article,
   .news-grid,
   .focus-list,
   .skills-list {
     grid-template-columns: 1fr;
+  }
+
+  .submission-list article {
+    gap: 6px;
   }
 
   .research-band {
