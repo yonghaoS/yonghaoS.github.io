@@ -197,8 +197,7 @@ img {
 
 .breadcrumb,
 .pub-date,
-.submission-list span,
-.contribution-list span {
+.submission-list span {
   margin: 0 0 8px;
   color: var(--maroon);
   font-size: 0.88rem;
@@ -324,7 +323,6 @@ h3 {
 }
 
 .research-list,
-.contribution-list,
 .talk-list,
 .notes-grid {
   display: grid;
@@ -334,7 +332,6 @@ h3 {
 }
 
 .research-list article,
-.contribution-list article,
 .talk-list article,
 .notes-grid article {
   padding-top: 18px;
@@ -342,7 +339,6 @@ h3 {
 }
 
 .research-list p,
-.contribution-list p,
 .talk-list p,
 .notes-grid p,
 .publication p,
@@ -410,8 +406,7 @@ h3 {
   border-bottom: 1px solid var(--line);
 }
 
-.submission-list span,
-.contribution-list span {
+.submission-list span {
   display: block;
   color: var(--maroon-dark);
   font-size: 0.78rem;
@@ -548,7 +543,6 @@ h3 {
   }
 
   .research-list,
-  .contribution-list,
   .talk-list {
     grid-template-columns: 1fr;
   }
