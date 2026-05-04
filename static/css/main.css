@@ -324,6 +324,7 @@ h3 {
 
 .research-list,
 .talk-list,
+.award-list,
 .notes-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -333,6 +334,7 @@ h3 {
 
 .research-list article,
 .talk-list article,
+.award-list article,
 .notes-grid article {
   padding-top: 18px;
   border-top: 5px solid var(--maroon);
@@ -340,6 +342,7 @@ h3 {
 
 .research-list p,
 .talk-list p,
+.award-list p,
 .notes-grid p,
 .publication p,
 .submission-list h3,
@@ -415,6 +418,26 @@ h3 {
 .submission-list h3 {
   max-width: 840px;
   margin: 0;
+}
+
+.award-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+.award-list article {
+  padding: 16px 0;
+  border-top: 1px solid var(--line);
+}
+
+.award-list article:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.award-list h3 {
+  margin: 0;
+  font-size: 1.08rem;
 }
 
 .experience-grid {
@@ -543,8 +566,45 @@ h3 {
   }
 
   .research-list,
-  .talk-list {
+  .talk-list,
+  .award-list {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1060px) {
+  .main-nav {
+    min-height: 74px;
+    flex-wrap: wrap;
+    padding: 14px 0;
+  }
+
+  .site-brand {
+    min-width: 0;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-links {
+    width: 100%;
+    display: none;
+    padding: 14px 0 4px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .nav-links.is-open {
+    display: flex;
+  }
+
+  .nav-links a {
+    min-height: 42px;
+    padding: 8px 0;
   }
 }
 
