@@ -1,6 +1,14 @@
 
 ### Conference Papers
 
+- **EcoVibWood: Lower Impact Vibration Sensing in Plywood**
+
+  *Yonghao Shi, Suyuan Liu, Xing-Dong Yang*
+
+  *UIST 2026*
+
+  [Conference program](https://programs.sigchi.org/uist/2026/program/content/262722)
+
 - **Lumberina: A Battery-Free, Wireless Smart Wood Panel with Concealed Dot-Matrix Display**  
   *Yonghao Shi, Zejia Cai, Liuyi Chen, Yuning Su, Liang he, Xing-Dong Yang, Te-Yen Wu*
   *SCF 2025*, Nov 11, 2025
